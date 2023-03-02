@@ -22,14 +22,22 @@ ul {
 
 /* Logo */
 .logo {
+  text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
+  color: var(--color-iris);
+}
+.logo-item-top {
+  color: var(--color-navy-blue);
+}
+.logo-item-bottom {
+  color: var(--color-cloud);
 }
 /* Button */
-button {
+.button-studio {
   cursor: pointer;
   color: var(--color-white);
   background-color: var(--color-iris);
@@ -37,49 +45,65 @@ button {
   font-size: 16px;
   line-height: 1.5;
 }
-button:hover {
+.button-studio:hover,
+.button-studio:focus {
   background-color: var(--color-ocean);
 }
-/* Link */
-a {
+/* Nav */
+.navigation {
   text-decoration: none;
   color: var(--color-slate);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
-a:hover {
+.navigation:hover,
+.navigation:focus {
   color: var(--color-ocean);
 }
-a:focus {
+
+.contacts:hover,
+.contacts:focus {
   color: var(--color-ocean);
 }
-address {
+.contacts {
+  color: var(--color-slate);
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
 }
-nav {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-}
+
 /* text */
 
-h1 {
+.main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
 }
-h2 {
+.main-subtitle {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
 }
-h3 {
+.main-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
-p {
+.main-text {
   font-size: 16px;
   line-height: 1.5;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-cornflower);
+}
+
+/* background */
+
+.background {
+  background-color: var(--color-navy-blue);
 }
