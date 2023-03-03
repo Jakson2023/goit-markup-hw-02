@@ -14,7 +14,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-navy-blue);
-  letter-spacing: 0.02em;
+  background-color: var(--color-white);
 }
 ul {
   list-style-image: none;
@@ -83,9 +83,10 @@ ul {
 /* text */
 
 .main-title {
-  font-weight: 700;
+  color: var(--color-white);
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
 }
 .main-subtitle {
   font-weight: 700;
