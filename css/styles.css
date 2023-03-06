@@ -105,16 +105,19 @@ ul {
   text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 .main-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
 .main-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-slate);
 }
 .main-card-title {
@@ -126,6 +129,7 @@ ul {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-cornflower);
 }
 .link-portfolio {
